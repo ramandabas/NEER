@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" fill="none">
+  <defs>
+    <linearGradient id="neerWaveGrad" x1="4" y1="4" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#0284c7" />
+      <stop offset="50%" stopColor="#0ea5e9" />
+      <stop offset="100%" stopColor="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="neerDeepGrad" x1="8" y1="20" x2="32" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#0369a1" />
+      <stop offset="100%" stopColor="#0c4a6e" />
+    </linearGradient>
+  </defs>
+  <rect width="40" height="40" rx="8" fill="#0B192C" />
+  <circle cx="20" cy="20" r="15" stroke="url(#neerWaveGrad)" stroke-width="1.5" stroke-dasharray="3 1.5" opacity="0.4" />
+  <path d="M7 25C11 21 14 20 18 22C22 24 25 27 29 25C32 23.8 34.5 22 35 20C34.5 28 28 34 20 34C14 34 9 30.5 7 25Z" fill="url(#neerDeepGrad)" />
+  <path d="M5 21C9 15 13 13 18 16C23 19 27 21 31 17C33.5 14.5 35 11 35 11C36.5 14 37 17.5 37 21C37 28.5 30.5 35 22 35C15 35 9 30.5 7.5 24.5C6.5 23.5 5.5 22.2 5 21Z" fill="url(#neerWaveGrad)" fill-opacity="0.9" />
+  <polygon points="20,7 22,15 29,17.5 22,20 20,28 18,20 11,17.5 18,15" fill="#ffffff" />
+  <circle cx="20" cy="17.5" r="1.5" fill="#0284c7" />
+</svg>

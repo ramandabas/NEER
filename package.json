@@ -1,0 +1,12 @@
+{
+  "name": "neer-marine-intelligence",
+  "version": "1.0.0",
+  "description": "Full-stack marine intelligence platform connecting live oceanographic APIs, INCOIS PFZ advisories, multi-agent Python AI services, Node.js orchestration, and a localized React interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node backend/test_auth.js && node --test backend/server.test.js"
+  },
+  "keywords": [],
+  "private": true,
+  "license": "UNLICENSED"
+}
